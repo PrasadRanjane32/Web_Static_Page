@@ -1,0 +1,113 @@
+.main{
+    position: fixed;
+    top: 4%;
+    left: 12%;
+    right: 27%;
+    height: 100%;
+    display: grid;
+    /* background-color: red; */
+}
+.b1{
+    display: grid;
+margin-top: 0.3rem;
+}
+.b1 li{
+    padding-left: 4px;
+    padding-bottom: 0;
+    position: fixed;
+    display: inline-block;
+}
+.b1 .icon{
+    padding-bottom: 2rem;
+}
+.b1 .f1{
+    padding-top: 0%;
+    padding-left: 1rem;
+}
+.Line1{
+    display: grid;
+    width: 100%;
+    height: 1.2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-bottom: 0%;
+}
+.Line2{
+    position: fixed;
+    display: grid;
+    width: 100%;
+    height: 20rem;
+    margin-top: 2%;
+}
+.Line2 ul{
+    padding-bottom: 0;
+    position: absolute;
+    top: 0%;
+}
+.Line2 li{
+    display: inline-block;
+    padding-left: 0px;
+}
+.Line2 .f2{
+    margin-left: 1rem;
+}
+.Line2 table {
+    width: 28rem;
+    height: 10rem;
+  }
+    
+.Bl {
+    text-align: center;
+    border-left: 1px solid gray;
+    border-spacing: 2rem;
+  }
+.DonutChart{
+      width: 21rem;
+      height: 10rem;
+  }
+
+.Line3{
+    position: fixed;
+    display: grid;
+    width: 100%;
+    height: 60%;
+    margin-top: 15%;
+}
+.Line3 ul{
+    padding-bottom: 0;
+    position: absolute;
+    
+}
+.Line3 li{
+    display: inline-block;
+    padding-left: 0px;
+}
+.Line3 .f2{
+    margin-left: 1rem;
+}
+
+.Line4{
+    position: fixed;
+    display: grid;
+    width: 100%;
+    height: 60%;
+    margin-top: 30%;
+}
+.Line4 ul{
+    padding-bottom: 0;
+    position: absolute;
+    
+}
+.Line4 li{
+    display: inline-block;
+    padding-left: 0px;
+}
+.Line4 .f2{
+    margin-left: 1rem;
+}
+.Line4 table {
+    width: 20rem;
+    height: 10rem;
+  }
+
+ 

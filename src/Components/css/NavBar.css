@@ -1,0 +1,52 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100%;
+    background: white;
+    z-index: 1;
+}
+.sidebar ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+
+}
+.sidebar ul li a{
+display: inline-block;
+color: gray;
+height: 4rem;
+width: 100%;
+position: relative;
+
+}
+.sidebar ul li a .icon{
+fill: 100%;
+color: #dee4ec;
+padding: 15%;
+display: inline-block;
+}
+.sidebar ul li a:hover,
+.sidebar ul li a.active{
+color: mediumpurple;
+background:ghostwhite;
+
+border-left: 3px solid mediumpurple;
+}
+.sidebar ul li a:hover .icon,
+.sidebar ul li a.active .icon{
+color: mediumpurple;
+}
+.sidebar ul li a:hover:before,
+.sidebar ul li a.active:before{
+display: block;
+}
+body.active .section{
+margin-left: 0;
+width: 100%;
+}
+.menu{
+    margin-top: 20rem;
+    display: grid;
+}

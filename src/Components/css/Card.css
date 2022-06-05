@@ -1,0 +1,40 @@
+.f1{
+    font-size: 0.2em;
+    letter-spacing: 1px;
+}
+.f1b{
+    font-size: 0.5em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+.f3{
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: purple;
+}
+.icon{
+    width: 10px;
+    height: 10px;
+}
+.card{
+    width: 305px;
+    height: 220px;
+    border-radius: 5px;
+    background-color: white;
+}
+.flatCard{
+    display: grid;
+    padding: 1rem;
+    width: 28rem;
+    height: 10rem;
+    border-radius: 5px;
+    background-color: white;
+}
+.flatCardL{
+    width: 39rem;
+    height: 220px;
+    border-radius: 5px;
+    background-color: white;
+}
+
